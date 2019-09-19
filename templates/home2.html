@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ML Test</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://kit.fontawesome.com/bf44d8bc3b.js"></script>
+</head>
+<body>
+    <h3>Prediction Page</h3>
+    <form class="row" action='http://127.0.0.1:5000/predictform' method="POST"  >
+        <!-- row 1 -->
+        <div class="row">
+            <div class="input-field col s3">
+                <input class="validate" id="MedInc" name="MedInc" type="text">
+                <label for="MedInc"> MedInc...</label>
+            </div>
+            <div class="input-field col s3">
+                <input class="validate" id="HouseAge" name="HouseAge" type="text">
+                <label for="HouseAge"> HouseAge...</label>
+            </div>
+            <div class="input-field col s3">
+                <input class="validate" id="AveRooms" name="AveRooms" type="text">
+                <label for="AveRooms"> AveRooms...</label>
+            </div>
+            <div class="input-field col s3">
+                <input class="validate" id="AveBedrms" name="AveBedrms" type="text">
+                <label for="AveBedrms"> AveBedrms...</label>
+            </div>
+        </div>
+        <!-- row 2 -->
+        <div class="row">
+            <div class="input-field col s3">
+                <input class="validate" id="Population" name="Population" type="text">
+                <label for="Population"> Population...</label>
+            </div>
+            <div class="input-field col s3">
+                <input class="validate" id="AveOccup" name="AveOccup" type="text">
+                <label for="AveOccup"> AveOccup...</label>
+            </div>
+            <div class="input-field col s3">
+                <input class="validate" id="Latitude" name="Latitude" type="text">
+                <label for="Latitude"> Latitude...</label>
+            </div>
+            <div class="input-field col s3">
+                <input class="validate" id="Longitude" name="Longitude" type="text">
+                <label for="Longitude"> Longitude...</label>
+            </div>
+        </div>
+        <!-- row 3 -->
+        <center class="row">
+            <button class="btn waves-effect waves-light" type="submit">
+                Predict &nbsp;&nbsp;
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </center>
+    </form>
+</body>
+</html>

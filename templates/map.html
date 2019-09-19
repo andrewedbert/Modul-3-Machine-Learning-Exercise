@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e11ea1ca0be1450dac39f4c8b9835e42 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e11ea1ca0be1450dac39f4c8b9835e42" ></div>
+        
+</body>
+<script>    
+    
+            var map_e11ea1ca0be1450dac39f4c8b9835e42 = L.map(
+                "map_e11ea1ca0be1450dac39f4c8b9835e42",
+                {
+                    center: [37.7935915752623, -122.40872063318301],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d6783aae58f947e780c9cd16c8abc552 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var marker_fb9182e90af041b6bdc667d5562455b4 = L.marker(
+                [37.7935915752623, -122.40872063318301],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_744a65be70ed4138b6ce4857f40617e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_fb9182e90af041b6bdc667d5562455b4.setIcon(icon_744a65be70ed4138b6ce4857f40617e1);
+        
+    
+        var popup_ab7009b87bdb4d9d8bf9d8df6ec982bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccf45fd30bcb4082810ef6b33f0fa738 = $(`<div id="html_ccf45fd30bcb4082810ef6b33f0fa738" style="width: 100.0%; height: 100.0%;">Weedle</div>`)[0];
+            popup_ab7009b87bdb4d9d8bf9d8df6ec982bf.setContent(html_ccf45fd30bcb4082810ef6b33f0fa738);
+        
+
+        marker_fb9182e90af041b6bdc667d5562455b4.bindPopup(popup_ab7009b87bdb4d9d8bf9d8df6ec982bf)
+        ;
+
+        
+    
+    
+            marker_fb9182e90af041b6bdc667d5562455b4.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ffa8b3295d35444cbef6fc540c4cb946 = L.marker(
+                [37.7947455405929, -122.406419649564],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_2b537bb42bbf49e8b7ccca451a97c826 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_ffa8b3295d35444cbef6fc540c4cb946.setIcon(icon_2b537bb42bbf49e8b7ccca451a97c826);
+        
+    
+        var popup_513c5e43d310488081406d8fdb31cff7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2df7e155f46743beb081d3751dadad3b = $(`<div id="html_2df7e155f46743beb081d3751dadad3b" style="width: 100.0%; height: 100.0%;">Pidgey</div>`)[0];
+            popup_513c5e43d310488081406d8fdb31cff7.setContent(html_2df7e155f46743beb081d3751dadad3b);
+        
+
+        marker_ffa8b3295d35444cbef6fc540c4cb946.bindPopup(popup_513c5e43d310488081406d8fdb31cff7)
+        ;
+
+        
+    
+    
+            marker_ffa8b3295d35444cbef6fc540c4cb946.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7464bb6989047ab88eec20ab4dcbb4f = L.marker(
+                [37.794999066064, -122.404384122075],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_a1094931760341f9845d115835380d32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_f7464bb6989047ab88eec20ab4dcbb4f.setIcon(icon_a1094931760341f9845d115835380d32);
+        
+    
+        var popup_7c05128623714b1daf1d23dfd777cc0d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65ffdee7d6ee4096abfe306333dc3f86 = $(`<div id="html_65ffdee7d6ee4096abfe306333dc3f86" style="width: 100.0%; height: 100.0%;">Zubat</div>`)[0];
+            popup_7c05128623714b1daf1d23dfd777cc0d.setContent(html_65ffdee7d6ee4096abfe306333dc3f86);
+        
+
+        marker_f7464bb6989047ab88eec20ab4dcbb4f.bindPopup(popup_7c05128623714b1daf1d23dfd777cc0d)
+        ;
+
+        
+    
+    
+            marker_f7464bb6989047ab88eec20ab4dcbb4f.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b35eea1b812f4add97b3a3a1613922d0 = L.marker(
+                [37.795644410258205, -122.407127649888],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_8f77a799287f4157a9a60f89599f6261 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_b35eea1b812f4add97b3a3a1613922d0.setIcon(icon_8f77a799287f4157a9a60f89599f6261);
+        
+    
+        var popup_b9b517caca90407c93e02bc490358bdb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_664bda49992c4d6dae9495f3528361cf = $(`<div id="html_664bda49992c4d6dae9495f3528361cf" style="width: 100.0%; height: 100.0%;">Pidgey</div>`)[0];
+            popup_b9b517caca90407c93e02bc490358bdb.setContent(html_664bda49992c4d6dae9495f3528361cf);
+        
+
+        marker_b35eea1b812f4add97b3a3a1613922d0.bindPopup(popup_b9b517caca90407c93e02bc490358bdb)
+        ;
+
+        
+    
+    
+            marker_b35eea1b812f4add97b3a3a1613922d0.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f04f8dc1abef4cb0b767c4c08f08b41a = L.marker(
+                [37.795591525787394, -122.406331149188],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_257a97a5fa3c491aa491e054927f68fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f04f8dc1abef4cb0b767c4c08f08b41a.setIcon(icon_257a97a5fa3c491aa491e054927f68fa);
+        
+    
+        var popup_828dc84bb5d94db0a06be86e3bd0cd9e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8889a8b7f26b4f53ad829e50b439a886 = $(`<div id="html_8889a8b7f26b4f53ad829e50b439a886" style="width: 100.0%; height: 100.0%;">Poliwag</div>`)[0];
+            popup_828dc84bb5d94db0a06be86e3bd0cd9e.setContent(html_8889a8b7f26b4f53ad829e50b439a886);
+        
+
+        marker_f04f8dc1abef4cb0b767c4c08f08b41a.bindPopup(popup_828dc84bb5d94db0a06be86e3bd0cd9e)
+        ;
+
+        
+    
+    
+            marker_f04f8dc1abef4cb0b767c4c08f08b41a.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fefd9b2399534761a2e821aa39513311 = L.marker(
+                [37.3011286952679, -122.048453380601],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_cde0d890dff44b32bb7378b17bea048d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_fefd9b2399534761a2e821aa39513311.setIcon(icon_cde0d890dff44b32bb7378b17bea048d);
+        
+    
+        var popup_4edb8dc54e09400c9a47332b17374986 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb5f5eb710b2428a92d2a4f89ead9c4a = $(`<div id="html_bb5f5eb710b2428a92d2a4f89ead9c4a" style="width: 100.0%; height: 100.0%;">Diglett</div>`)[0];
+            popup_4edb8dc54e09400c9a47332b17374986.setContent(html_bb5f5eb710b2428a92d2a4f89ead9c4a);
+        
+
+        marker_fefd9b2399534761a2e821aa39513311.bindPopup(popup_4edb8dc54e09400c9a47332b17374986)
+        ;
+
+        
+    
+    
+            marker_fefd9b2399534761a2e821aa39513311.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b2413b1ca524cabae136824edb44cf2 = L.marker(
+                [37.3007573878444, -122.045700635751],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_af65ee2694444db082e7fb03ffd0757e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5b2413b1ca524cabae136824edb44cf2.setIcon(icon_af65ee2694444db082e7fb03ffd0757e);
+        
+    
+        var popup_7df22cf4838b405f86005608aaf3e9ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_154df4238c69432f956205d4b915eb37 = $(`<div id="html_154df4238c69432f956205d4b915eb37" style="width: 100.0%; height: 100.0%;">Ekans</div>`)[0];
+            popup_7df22cf4838b405f86005608aaf3e9ee.setContent(html_154df4238c69432f956205d4b915eb37);
+        
+
+        marker_5b2413b1ca524cabae136824edb44cf2.bindPopup(popup_7df22cf4838b405f86005608aaf3e9ee)
+        ;
+
+        
+    
+    
+            marker_5b2413b1ca524cabae136824edb44cf2.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0f61131eff04261b123d0880c70b384 = L.marker(
+                [37.3034627881463, -122.048186988982],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_f0c8ed993e4a4b61bbb5a4a6451adeaa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_d0f61131eff04261b123d0880c70b384.setIcon(icon_f0c8ed993e4a4b61bbb5a4a6451adeaa);
+        
+    
+        var popup_9b1b9065ffcb45f9ba115b01199077d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02ebd9d48e2a40df8438e699d27ac30d = $(`<div id="html_02ebd9d48e2a40df8438e699d27ac30d" style="width: 100.0%; height: 100.0%;">Zubat</div>`)[0];
+            popup_9b1b9065ffcb45f9ba115b01199077d7.setContent(html_02ebd9d48e2a40df8438e699d27ac30d);
+        
+
+        marker_d0f61131eff04261b123d0880c70b384.bindPopup(popup_9b1b9065ffcb45f9ba115b01199077d7)
+        ;
+
+        
+    
+    
+            marker_d0f61131eff04261b123d0880c70b384.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57bdbc10ab80497f882fe7038fac382a = L.marker(
+                [37.7594671892939, -122.42624185545601],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_54bcd7fc203e46b1b381ff0a09466748 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_57bdbc10ab80497f882fe7038fac382a.setIcon(icon_54bcd7fc203e46b1b381ff0a09466748);
+        
+    
+        var popup_5f34ede606744804bcb7860354b688b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f1a52bfa0894d2c98644d46ee0139cd = $(`<div id="html_2f1a52bfa0894d2c98644d46ee0139cd" style="width: 100.0%; height: 100.0%;">Paras</div>`)[0];
+            popup_5f34ede606744804bcb7860354b688b9.setContent(html_2f1a52bfa0894d2c98644d46ee0139cd);
+        
+
+        marker_57bdbc10ab80497f882fe7038fac382a.bindPopup(popup_5f34ede606744804bcb7860354b688b9)
+        ;
+
+        
+    
+    
+            marker_57bdbc10ab80497f882fe7038fac382a.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a236e02602434861be556f5204839481 = L.marker(
+                [37.7594988253346, -122.423233368624],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_89a08857e3424920ac05a624f969ad8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_a236e02602434861be556f5204839481.setIcon(icon_89a08857e3424920ac05a624f969ad8e);
+        
+    
+        var popup_02a59a448ca9477c82e99531bc565c6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c0428a67b344a9ca811a2df34cb63f0 = $(`<div id="html_2c0428a67b344a9ca811a2df34cb63f0" style="width: 100.0%; height: 100.0%;">Zubat</div>`)[0];
+            popup_02a59a448ca9477c82e99531bc565c6a.setContent(html_2c0428a67b344a9ca811a2df34cb63f0);
+        
+
+        marker_a236e02602434861be556f5204839481.bindPopup(popup_02a59a448ca9477c82e99531bc565c6a)
+        ;
+
+        
+    
+    
+            marker_a236e02602434861be556f5204839481.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c2f94062e1c4be39c0aaf5f56446fe0 = L.marker(
+                [37.7599126803964, -122.422613963572],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_cab23886de6a45a2b33f28ae35cd1d70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_1c2f94062e1c4be39c0aaf5f56446fe0.setIcon(icon_cab23886de6a45a2b33f28ae35cd1d70);
+        
+    
+        var popup_4f7baa8cb21948bcbd8a46507e3a73e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ace259f4a7148df90da76c2e94cdbee = $(`<div id="html_9ace259f4a7148df90da76c2e94cdbee" style="width: 100.0%; height: 100.0%;">Pikachu</div>`)[0];
+            popup_4f7baa8cb21948bcbd8a46507e3a73e1.setContent(html_9ace259f4a7148df90da76c2e94cdbee);
+        
+
+        marker_1c2f94062e1c4be39c0aaf5f56446fe0.bindPopup(popup_4f7baa8cb21948bcbd8a46507e3a73e1)
+        ;
+
+        
+    
+    
+            marker_1c2f94062e1c4be39c0aaf5f56446fe0.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3255e28c02549c3ad1865155cef793c = L.marker(
+                [37.7610194868343, -122.424826107689],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_22fbfa6ae6754054ac1623578cb3874a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_d3255e28c02549c3ad1865155cef793c.setIcon(icon_22fbfa6ae6754054ac1623578cb3874a);
+        
+    
+        var popup_1d6385b3c16549d1a733353219160284 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b64b280be59148dbb0c72b9c1f60a1a3 = $(`<div id="html_b64b280be59148dbb0c72b9c1f60a1a3" style="width: 100.0%; height: 100.0%;">Zubat</div>`)[0];
+            popup_1d6385b3c16549d1a733353219160284.setContent(html_b64b280be59148dbb0c72b9c1f60a1a3);
+        
+
+        marker_d3255e28c02549c3ad1865155cef793c.bindPopup(popup_1d6385b3c16549d1a733353219160284)
+        ;
+
+        
+    
+    
+            marker_d3255e28c02549c3ad1865155cef793c.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90d0144adcb740f8b946256ecbe4bc98 = L.marker(
+                [37.7611184032929, -122.422083042047],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_55c050d6a3ae4f4981ca9b1d8da6b31d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_90d0144adcb740f8b946256ecbe4bc98.setIcon(icon_55c050d6a3ae4f4981ca9b1d8da6b31d);
+        
+    
+        var popup_adb1706ea4e04f51858084aa1f2eb4bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec464a77a3994c8493a48e21eef927a5 = $(`<div id="html_ec464a77a3994c8493a48e21eef927a5" style="width: 100.0%; height: 100.0%;">Machop</div>`)[0];
+            popup_adb1706ea4e04f51858084aa1f2eb4bd.setContent(html_ec464a77a3994c8493a48e21eef927a5);
+        
+
+        marker_90d0144adcb740f8b946256ecbe4bc98.bindPopup(popup_adb1706ea4e04f51858084aa1f2eb4bd)
+        ;
+
+        
+    
+    
+            marker_90d0144adcb740f8b946256ecbe4bc98.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c4ae9190aff4d6db0ff5f019263fa0b = L.marker(
+                [37.302002064348294, -122.00893150341001],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_ef509f4f85e64970a180ceda71870f5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2c4ae9190aff4d6db0ff5f019263fa0b.setIcon(icon_ef509f4f85e64970a180ceda71870f5c);
+        
+    
+        var popup_935392db8ce84b28a6c99c188b541865 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_749e36f404134d88af52e45b7a40c12b = $(`<div id="html_749e36f404134d88af52e45b7a40c12b" style="width: 100.0%; height: 100.0%;">Paras</div>`)[0];
+            popup_935392db8ce84b28a6c99c188b541865.setContent(html_749e36f404134d88af52e45b7a40c12b);
+        
+
+        marker_2c4ae9190aff4d6db0ff5f019263fa0b.bindPopup(popup_935392db8ce84b28a6c99c188b541865)
+        ;
+
+        
+    
+    
+            marker_2c4ae9190aff4d6db0ff5f019263fa0b.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82e7ce94e7644a7b9927fcb59d9dd0ec = L.marker(
+                [37.302018539129, -122.002890943993],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_7be5070020d5481b8d7253374587db36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_82e7ce94e7644a7b9927fcb59d9dd0ec.setIcon(icon_7be5070020d5481b8d7253374587db36);
+        
+    
+        var popup_904bbc0a3a674ed79ee9ca3c23fc433a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de9e1718b86542ff90312cf0dce06c3c = $(`<div id="html_de9e1718b86542ff90312cf0dce06c3c" style="width: 100.0%; height: 100.0%;">Zubat</div>`)[0];
+            popup_904bbc0a3a674ed79ee9ca3c23fc433a.setContent(html_de9e1718b86542ff90312cf0dce06c3c);
+        
+
+        marker_82e7ce94e7644a7b9927fcb59d9dd0ec.bindPopup(popup_904bbc0a3a674ed79ee9ca3c23fc433a)
+        ;
+
+        
+    
+    
+            marker_82e7ce94e7644a7b9927fcb59d9dd0ec.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6edf3429932d4192b53a951ecf6e3447 = L.marker(
+                [37.3036087559138, -122.011329868172],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_bcf5708280ac4335a859d32d742a6bca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_6edf3429932d4192b53a951ecf6e3447.setIcon(icon_bcf5708280ac4335a859d32d742a6bca);
+        
+    
+        var popup_909f2dc2ca5a46b69f6689d60b7b0b9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53e45dd47b9d4f439bd501fa6ac36482 = $(`<div id="html_53e45dd47b9d4f439bd501fa6ac36482" style="width: 100.0%; height: 100.0%;">Rattata</div>`)[0];
+            popup_909f2dc2ca5a46b69f6689d60b7b0b9d.setContent(html_53e45dd47b9d4f439bd501fa6ac36482);
+        
+
+        marker_6edf3429932d4192b53a951ecf6e3447.bindPopup(popup_909f2dc2ca5a46b69f6689d60b7b0b9d)
+        ;
+
+        
+    
+    
+            marker_6edf3429932d4192b53a951ecf6e3447.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f79acbd2936d4993bd5db0806a1bb5ac = L.marker(
+                [37.30367584590971, -122.007865546609],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_c6c57ebf5d344154a08a343d02333398 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_f79acbd2936d4993bd5db0806a1bb5ac.setIcon(icon_c6c57ebf5d344154a08a343d02333398);
+        
+    
+        var popup_d1e03799a7524f29ba40bd8280a1ae72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecf4dbf7161640f58461c215080ea9fc = $(`<div id="html_ecf4dbf7161640f58461c215080ea9fc" style="width: 100.0%; height: 100.0%;">Rattata</div>`)[0];
+            popup_d1e03799a7524f29ba40bd8280a1ae72.setContent(html_ecf4dbf7161640f58461c215080ea9fc);
+        
+
+        marker_f79acbd2936d4993bd5db0806a1bb5ac.bindPopup(popup_d1e03799a7524f29ba40bd8280a1ae72)
+        ;
+
+        
+    
+    
+            marker_f79acbd2936d4993bd5db0806a1bb5ac.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1058a0baed3c460c8de7df268a1bbca4 = L.marker(
+                [37.30367584590971, -122.007865546609],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_6abaeb55f17449d2b6cf493e4ff472ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_1058a0baed3c460c8de7df268a1bbca4.setIcon(icon_6abaeb55f17449d2b6cf493e4ff472ed);
+        
+    
+        var popup_008773e7469549fda8cb46d30257369b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f944d75831b485e87abe17774a562ce = $(`<div id="html_3f944d75831b485e87abe17774a562ce" style="width: 100.0%; height: 100.0%;">Rattata</div>`)[0];
+            popup_008773e7469549fda8cb46d30257369b.setContent(html_3f944d75831b485e87abe17774a562ce);
+        
+
+        marker_1058a0baed3c460c8de7df268a1bbca4.bindPopup(popup_008773e7469549fda8cb46d30257369b)
+        ;
+
+        
+    
+    
+            marker_1058a0baed3c460c8de7df268a1bbca4.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6240a404442e4084a1554e759074d766 = L.marker(
+                [37.301284255828705, -121.99809379127],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_297df31942c248dfb330b76b9e5d7431 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_6240a404442e4084a1554e759074d766.setIcon(icon_297df31942c248dfb330b76b9e5d7431);
+        
+    
+        var popup_0ea244df59594fbd8e93650043cdd9f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_870c2639ddb34428b28a4cc790881a2a = $(`<div id="html_870c2639ddb34428b28a4cc790881a2a" style="width: 100.0%; height: 100.0%;">Rattata</div>`)[0];
+            popup_0ea244df59594fbd8e93650043cdd9f0.setContent(html_870c2639ddb34428b28a4cc790881a2a);
+        
+
+        marker_6240a404442e4084a1554e759074d766.bindPopup(popup_0ea244df59594fbd8e93650043cdd9f0)
+        ;
+
+        
+    
+    
+            marker_6240a404442e4084a1554e759074d766.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_121365410e834701be750d97b6e7dd99 = L.marker(
+                [37.301722611896, -121.99613933536101],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_41a1c6ff81ce4acbad5a3917b2da8e1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_121365410e834701be750d97b6e7dd99.setIcon(icon_41a1c6ff81ce4acbad5a3917b2da8e1d);
+        
+    
+        var popup_1f73ffc5218a49778362c80c49ce0805 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df57a30166864cc88775ee9054468dbd = $(`<div id="html_df57a30166864cc88775ee9054468dbd" style="width: 100.0%; height: 100.0%;">Pidgey</div>`)[0];
+            popup_1f73ffc5218a49778362c80c49ce0805.setContent(html_df57a30166864cc88775ee9054468dbd);
+        
+
+        marker_121365410e834701be750d97b6e7dd99.bindPopup(popup_1f73ffc5218a49778362c80c49ce0805)
+        ;
+
+        
+    
+    
+            marker_121365410e834701be750d97b6e7dd99.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_110236ae12b14ae1893d0298c1db6d51 = L.marker(
+                [37.3018693456521, -121.992408004348],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_5049f2f8ec6a4fa7bf3aadbb14bd2dbe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_110236ae12b14ae1893d0298c1db6d51.setIcon(icon_5049f2f8ec6a4fa7bf3aadbb14bd2dbe);
+        
+    
+        var popup_eba37732940b4db3af338ac16ed5787a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0143ed701c2546e9a8c9c9f967ee6ec0 = $(`<div id="html_0143ed701c2546e9a8c9c9f967ee6ec0" style="width: 100.0%; height: 100.0%;">Rattata</div>`)[0];
+            popup_eba37732940b4db3af338ac16ed5787a.setContent(html_0143ed701c2546e9a8c9c9f967ee6ec0);
+        
+
+        marker_110236ae12b14ae1893d0298c1db6d51.bindPopup(popup_eba37732940b4db3af338ac16ed5787a)
+        ;
+
+        
+    
+    
+            marker_110236ae12b14ae1893d0298c1db6d51.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a5e4acc57f564bdabd92ce669739df6c = L.marker(
+                [37.302347735351404, -121.998804493847],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_50ed277a0eb14e0bacf9fe1310cd3096 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a5e4acc57f564bdabd92ce669739df6c.setIcon(icon_50ed277a0eb14e0bacf9fe1310cd3096);
+        
+    
+        var popup_7ca45a85210e4629b30d9e46403c5a6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1830b33a36f247838622e9b756838273 = $(`<div id="html_1830b33a36f247838622e9b756838273" style="width: 100.0%; height: 100.0%;">Paras</div>`)[0];
+            popup_7ca45a85210e4629b30d9e46403c5a6a.setContent(html_1830b33a36f247838622e9b756838273);
+        
+
+        marker_a5e4acc57f564bdabd92ce669739df6c.bindPopup(popup_7ca45a85210e4629b30d9e46403c5a6a)
+        ;
+
+        
+    
+    
+            marker_a5e4acc57f564bdabd92ce669739df6c.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a21abb246244816923b379d4349f789 = L.marker(
+                [37.301553615054495, -121.945488997183],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_3556479ea6484fc3896b39504b728862 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1a21abb246244816923b379d4349f789.setIcon(icon_3556479ea6484fc3896b39504b728862);
+        
+    
+        var popup_d063a2538dc34c4c90c73a4021754a68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_359860ca76d342ec88fd0284e21f5a28 = $(`<div id="html_359860ca76d342ec88fd0284e21f5a28" style="width: 100.0%; height: 100.0%;">Paras</div>`)[0];
+            popup_d063a2538dc34c4c90c73a4021754a68.setContent(html_359860ca76d342ec88fd0284e21f5a28);
+        
+
+        marker_1a21abb246244816923b379d4349f789.bindPopup(popup_d063a2538dc34c4c90c73a4021754a68)
+        ;
+
+        
+    
+    
+            marker_1a21abb246244816923b379d4349f789.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4410d0bcbd9a4e40800b8de2001be0b7 = L.marker(
+                [37.3026396311853, -121.946377801172],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_fe6fe8e03ce24005beda9243536f24ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4410d0bcbd9a4e40800b8de2001be0b7.setIcon(icon_fe6fe8e03ce24005beda9243536f24ec);
+        
+    
+        var popup_e303927338854a108fa0fa25f414cc27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e15f079c61542f186d117ce6232409c = $(`<div id="html_7e15f079c61542f186d117ce6232409c" style="width: 100.0%; height: 100.0%;">Growlithe</div>`)[0];
+            popup_e303927338854a108fa0fa25f414cc27.setContent(html_7e15f079c61542f186d117ce6232409c);
+        
+
+        marker_4410d0bcbd9a4e40800b8de2001be0b7.bindPopup(popup_e303927338854a108fa0fa25f414cc27)
+        ;
+
+        
+    
+    
+            marker_4410d0bcbd9a4e40800b8de2001be0b7.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd3d4aa8dfb94106934ccce4cbd437f2 = L.marker(
+                [37.3021786588508, -121.970905951963],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_0a89ef65425e4f4e8b4068c043e1d94b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_fd3d4aa8dfb94106934ccce4cbd437f2.setIcon(icon_0a89ef65425e4f4e8b4068c043e1d94b);
+        
+    
+        var popup_0c797dc53c9644289dd07c98d1297d56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae0ed17ecb3048259a6f75adf2d018f8 = $(`<div id="html_ae0ed17ecb3048259a6f75adf2d018f8" style="width: 100.0%; height: 100.0%;">Rattata</div>`)[0];
+            popup_0c797dc53c9644289dd07c98d1297d56.setContent(html_ae0ed17ecb3048259a6f75adf2d018f8);
+        
+
+        marker_fd3d4aa8dfb94106934ccce4cbd437f2.bindPopup(popup_0c797dc53c9644289dd07c98d1297d56)
+        ;
+
+        
+    
+    
+            marker_fd3d4aa8dfb94106934ccce4cbd437f2.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce844d2277a74c10a81abc9e05b95de4 = L.marker(
+                [37.301060678061205, -121.926111284528],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_d5e1806c44b04c7593647dddaedb61bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ce844d2277a74c10a81abc9e05b95de4.setIcon(icon_d5e1806c44b04c7593647dddaedb61bc);
+        
+    
+        var popup_afe725aac15948019ecb5c1beb09c69e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0096d40b27141b484220dca282606af = $(`<div id="html_d0096d40b27141b484220dca282606af" style="width: 100.0%; height: 100.0%;">Paras</div>`)[0];
+            popup_afe725aac15948019ecb5c1beb09c69e.setContent(html_d0096d40b27141b484220dca282606af);
+        
+
+        marker_ce844d2277a74c10a81abc9e05b95de4.bindPopup(popup_afe725aac15948019ecb5c1beb09c69e)
+        ;
+
+        
+    
+    
+            marker_ce844d2277a74c10a81abc9e05b95de4.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03f468a96f1c4ed0904a7d8a7ed2122e = L.marker(
+                [37.3018620298923, -122.001913763293],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_6bbab721fdbd41ea92a31daa46d09262 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_03f468a96f1c4ed0904a7d8a7ed2122e.setIcon(icon_6bbab721fdbd41ea92a31daa46d09262);
+        
+    
+        var popup_ccbfe6a70c104e05b42183e1b374728a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_502598a406c8448fbef09ad7e4b5468c = $(`<div id="html_502598a406c8448fbef09ad7e4b5468c" style="width: 100.0%; height: 100.0%;">Sandshrew</div>`)[0];
+            popup_ccbfe6a70c104e05b42183e1b374728a.setContent(html_502598a406c8448fbef09ad7e4b5468c);
+        
+
+        marker_03f468a96f1c4ed0904a7d8a7ed2122e.bindPopup(popup_ccbfe6a70c104e05b42183e1b374728a)
+        ;
+
+        
+    
+    
+            marker_03f468a96f1c4ed0904a7d8a7ed2122e.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36e3e3121a034ec18eabf0aa3e85afe9 = L.marker(
+                [37.3018516523334, -121.950999466008],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_ad24fdd97f49407fbfbdc6c9a3329afc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_36e3e3121a034ec18eabf0aa3e85afe9.setIcon(icon_ad24fdd97f49407fbfbdc6c9a3329afc);
+        
+    
+        var popup_c309e4a333054a9b96a8195394839c62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_270933015c3a4b3c9bb5c6518c880e5c = $(`<div id="html_270933015c3a4b3c9bb5c6518c880e5c" style="width: 100.0%; height: 100.0%;">Eevee</div>`)[0];
+            popup_c309e4a333054a9b96a8195394839c62.setContent(html_270933015c3a4b3c9bb5c6518c880e5c);
+        
+
+        marker_36e3e3121a034ec18eabf0aa3e85afe9.bindPopup(popup_c309e4a333054a9b96a8195394839c62)
+        ;
+
+        
+    
+    
+            marker_36e3e3121a034ec18eabf0aa3e85afe9.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f68c8f0c161f4a90ad043df58abdfaf3 = L.marker(
+                [37.3017050027831, -121.961486368584],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_71e54f8a15d549e483df351ca5703918 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_f68c8f0c161f4a90ad043df58abdfaf3.setIcon(icon_71e54f8a15d549e483df351ca5703918);
+        
+    
+        var popup_8d722e380a074c36b6eee1ae11ed947a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da1c00487cab4e669824a58f332852f2 = $(`<div id="html_da1c00487cab4e669824a58f332852f2" style="width: 100.0%; height: 100.0%;">Rattata</div>`)[0];
+            popup_8d722e380a074c36b6eee1ae11ed947a.setContent(html_da1c00487cab4e669824a58f332852f2);
+        
+
+        marker_f68c8f0c161f4a90ad043df58abdfaf3.bindPopup(popup_8d722e380a074c36b6eee1ae11ed947a)
+        ;
+
+        
+    
+    
+            marker_f68c8f0c161f4a90ad043df58abdfaf3.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2fcaabd33e54935b78e37b984690bed = L.marker(
+                [37.30112980683, -121.94939968095301],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_68560404af42467f836958fc5f0f94f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c2fcaabd33e54935b78e37b984690bed.setIcon(icon_68560404af42467f836958fc5f0f94f6);
+        
+    
+        var popup_992a7a14f7534a01a32670ba80aaf202 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d0a3c76b87194b41843e8eb7eef2596c = $(`<div id="html_d0a3c76b87194b41843e8eb7eef2596c" style="width: 100.0%; height: 100.0%;">Paras</div>`)[0];
+            popup_992a7a14f7534a01a32670ba80aaf202.setContent(html_d0a3c76b87194b41843e8eb7eef2596c);
+        
+
+        marker_c2fcaabd33e54935b78e37b984690bed.bindPopup(popup_992a7a14f7534a01a32670ba80aaf202)
+        ;
+
+        
+    
+    
+            marker_c2fcaabd33e54935b78e37b984690bed.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42f7df2ef7904c3cadf1c7cf4a781076 = L.marker(
+                [37.3026644048225, -121.973038575471],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_05e6e17739bf4ae8b3938da1fd773f94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_42f7df2ef7904c3cadf1c7cf4a781076.setIcon(icon_05e6e17739bf4ae8b3938da1fd773f94);
+        
+    
+        var popup_e5476b67429a42a499b9513c12ece230 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26bcda476cc3441e835035469940066e = $(`<div id="html_26bcda476cc3441e835035469940066e" style="width: 100.0%; height: 100.0%;">Caterpie</div>`)[0];
+            popup_e5476b67429a42a499b9513c12ece230.setContent(html_26bcda476cc3441e835035469940066e);
+        
+
+        marker_42f7df2ef7904c3cadf1c7cf4a781076.bindPopup(popup_e5476b67429a42a499b9513c12ece230)
+        ;
+
+        
+    
+    
+            marker_42f7df2ef7904c3cadf1c7cf4a781076.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b2e703c62b24f7da56f63e1c1427116 = L.marker(
+                [37.30142237829261, -121.933667220706],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_dfd9683b60a949e79db473cda19b649f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_2b2e703c62b24f7da56f63e1c1427116.setIcon(icon_dfd9683b60a949e79db473cda19b649f);
+        
+    
+        var popup_6f8e6491309d4a32933dc0e3358c4481 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e53b20f33fd44c99a70ed47ae26f6ab1 = $(`<div id="html_e53b20f33fd44c99a70ed47ae26f6ab1" style="width: 100.0%; height: 100.0%;">Pidgey</div>`)[0];
+            popup_6f8e6491309d4a32933dc0e3358c4481.setContent(html_e53b20f33fd44c99a70ed47ae26f6ab1);
+        
+
+        marker_2b2e703c62b24f7da56f63e1c1427116.bindPopup(popup_6f8e6491309d4a32933dc0e3358c4481)
+        ;
+
+        
+    
+    
+            marker_2b2e703c62b24f7da56f63e1c1427116.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abaa9f119b874d7fbb91ccc18a11f966 = L.marker(
+                [37.3030303139401, -121.999781702346],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_fb1fbf5a6a7849f8b7598c91d71c9988 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_abaa9f119b874d7fbb91ccc18a11f966.setIcon(icon_fb1fbf5a6a7849f8b7598c91d71c9988);
+        
+    
+        var popup_97238af429884bb2a342dca6a6084d1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c827cb559bf4aa9843b6da8ad054beb = $(`<div id="html_2c827cb559bf4aa9843b6da8ad054beb" style="width: 100.0%; height: 100.0%;">Rattata</div>`)[0];
+            popup_97238af429884bb2a342dca6a6084d1e.setContent(html_2c827cb559bf4aa9843b6da8ad054beb);
+        
+
+        marker_abaa9f119b874d7fbb91ccc18a11f966.bindPopup(popup_97238af429884bb2a342dca6a6084d1e)
+        ;
+
+        
+    
+    
+            marker_abaa9f119b874d7fbb91ccc18a11f966.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a1f2689c23241f5a63cd1c785eb1989 = L.marker(
+                [37.3025356500031, -121.987699238323],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_afe89a148a0047fc86fe669506f50933 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_4a1f2689c23241f5a63cd1c785eb1989.setIcon(icon_afe89a148a0047fc86fe669506f50933);
+        
+    
+        var popup_c66419d61a504c5f8808cda5b4967c78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bdf3fc157cb4ff0908b5a7600f94848 = $(`<div id="html_0bdf3fc157cb4ff0908b5a7600f94848" style="width: 100.0%; height: 100.0%;">Rattata</div>`)[0];
+            popup_c66419d61a504c5f8808cda5b4967c78.setContent(html_0bdf3fc157cb4ff0908b5a7600f94848);
+        
+
+        marker_4a1f2689c23241f5a63cd1c785eb1989.bindPopup(popup_c66419d61a504c5f8808cda5b4967c78)
+        ;
+
+        
+    
+    
+            marker_4a1f2689c23241f5a63cd1c785eb1989.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c1555023ce4418ea9ec78c62434d1a2 = L.marker(
+                [37.301242119535296, -121.97801453559099],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_0b00870f9d7e48d5803f3d5bf3cbef43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_3c1555023ce4418ea9ec78c62434d1a2.setIcon(icon_0b00870f9d7e48d5803f3d5bf3cbef43);
+        
+    
+        var popup_d5d1de367df145ecbba17c3805a8998c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ae95393692148339d984e047f856775 = $(`<div id="html_6ae95393692148339d984e047f856775" style="width: 100.0%; height: 100.0%;">Rattata</div>`)[0];
+            popup_d5d1de367df145ecbba17c3805a8998c.setContent(html_6ae95393692148339d984e047f856775);
+        
+
+        marker_3c1555023ce4418ea9ec78c62434d1a2.bindPopup(popup_d5d1de367df145ecbba17c3805a8998c)
+        ;
+
+        
+    
+    
+            marker_3c1555023ce4418ea9ec78c62434d1a2.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e4e6e89709e40e69f5ee4f361d29880 = L.marker(
+                [37.3033924301776, -121.996583532953],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_dc2e3e71becb43e480559fb26ff52948 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_9e4e6e89709e40e69f5ee4f361d29880.setIcon(icon_dc2e3e71becb43e480559fb26ff52948);
+        
+    
+        var popup_7e3691978c8b48f0892dd467b4d9335c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_951680df81044aec9b8e972e81bf7cec = $(`<div id="html_951680df81044aec9b8e972e81bf7cec" style="width: 100.0%; height: 100.0%;">Pidgey</div>`)[0];
+            popup_7e3691978c8b48f0892dd467b4d9335c.setContent(html_951680df81044aec9b8e972e81bf7cec);
+        
+
+        marker_9e4e6e89709e40e69f5ee4f361d29880.bindPopup(popup_7e3691978c8b48f0892dd467b4d9335c)
+        ;
+
+        
+    
+    
+            marker_9e4e6e89709e40e69f5ee4f361d29880.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_081f708eb3994b8d8fb1c2fbd8220842 = L.marker(
+                [37.301046753583606, -121.955176572673],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_91490b0514554146bab71efb79ac9a65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_081f708eb3994b8d8fb1c2fbd8220842.setIcon(icon_91490b0514554146bab71efb79ac9a65);
+        
+    
+        var popup_db982215d7cc4c7394c7fcfeb61d910e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e85c50f0a1a458dbeb14572000b5ed6 = $(`<div id="html_9e85c50f0a1a458dbeb14572000b5ed6" style="width: 100.0%; height: 100.0%;">Paras</div>`)[0];
+            popup_db982215d7cc4c7394c7fcfeb61d910e.setContent(html_9e85c50f0a1a458dbeb14572000b5ed6);
+        
+
+        marker_081f708eb3994b8d8fb1c2fbd8220842.bindPopup(popup_db982215d7cc4c7394c7fcfeb61d910e)
+        ;
+
+        
+    
+    
+            marker_081f708eb3994b8d8fb1c2fbd8220842.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2dc188ef81e247a99382ad4470c59af1 = L.marker(
+                [37.3033924301776, -121.996583532953],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_25df44471acf45acb2972788952a9b30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_2dc188ef81e247a99382ad4470c59af1.setIcon(icon_25df44471acf45acb2972788952a9b30);
+        
+    
+        var popup_fa3e2af6c0934952a91b0433ea8eb71b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_800b3edeb4e34ae5a596447a4b30ec0d = $(`<div id="html_800b3edeb4e34ae5a596447a4b30ec0d" style="width: 100.0%; height: 100.0%;">Pidgey</div>`)[0];
+            popup_fa3e2af6c0934952a91b0433ea8eb71b.setContent(html_800b3edeb4e34ae5a596447a4b30ec0d);
+        
+
+        marker_2dc188ef81e247a99382ad4470c59af1.bindPopup(popup_fa3e2af6c0934952a91b0433ea8eb71b)
+        ;
+
+        
+    
+    
+            marker_2dc188ef81e247a99382ad4470c59af1.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a931f2fdbd41483791e448b574ae1bfb = L.marker(
+                [37.3023916510549, -121.916421148683],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_1ef1a9c2f2b94568933ea8582b96b051 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_a931f2fdbd41483791e448b574ae1bfb.setIcon(icon_1ef1a9c2f2b94568933ea8582b96b051);
+        
+    
+        var popup_7589468b538b4c87963e655d3ee88bf2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed30e3e0ea994f88877e156f1454b240 = $(`<div id="html_ed30e3e0ea994f88877e156f1454b240" style="width: 100.0%; height: 100.0%;">Mankey</div>`)[0];
+            popup_7589468b538b4c87963e655d3ee88bf2.setContent(html_ed30e3e0ea994f88877e156f1454b240);
+        
+
+        marker_a931f2fdbd41483791e448b574ae1bfb.bindPopup(popup_7589468b538b4c87963e655d3ee88bf2)
+        ;
+
+        
+    
+    
+            marker_a931f2fdbd41483791e448b574ae1bfb.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23d1e108510f495cb839c289fb8de606 = L.marker(
+                [37.3038307744441, -121.994629050049],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_d3cb395988ff43e3a5ef82e72bd9392f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_23d1e108510f495cb839c289fb8de606.setIcon(icon_d3cb395988ff43e3a5ef82e72bd9392f);
+        
+    
+        var popup_ed4d28485a4845e7accd683185a680d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7793430e8adf40d7966744409273ef4f = $(`<div id="html_7793430e8adf40d7966744409273ef4f" style="width: 100.0%; height: 100.0%;">Pidgey</div>`)[0];
+            popup_ed4d28485a4845e7accd683185a680d6.setContent(html_7793430e8adf40d7966744409273ef4f);
+        
+
+        marker_23d1e108510f495cb839c289fb8de606.bindPopup(popup_ed4d28485a4845e7accd683185a680d6)
+        ;
+
+        
+    
+    
+            marker_23d1e108510f495cb839c289fb8de606.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22da6546cf6348f387f558ef09debf7d = L.marker(
+                [37.3012912117634, -121.90530755868099],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_54998d018cae4cc89422b1c28e413141 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_22da6546cf6348f387f558ef09debf7d.setIcon(icon_54998d018cae4cc89422b1c28e413141);
+        
+    
+        var popup_6dfaed027aa04061aaec824e5d72e5d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b93d7075b4914abea72ce2eb1c7ad3c1 = $(`<div id="html_b93d7075b4914abea72ce2eb1c7ad3c1" style="width: 100.0%; height: 100.0%;">Pidgey</div>`)[0];
+            popup_6dfaed027aa04061aaec824e5d72e5d7.setContent(html_b93d7075b4914abea72ce2eb1c7ad3c1);
+        
+
+        marker_22da6546cf6348f387f558ef09debf7d.bindPopup(popup_6dfaed027aa04061aaec824e5d72e5d7)
+        ;
+
+        
+    
+    
+            marker_22da6546cf6348f387f558ef09debf7d.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3456b406afeb4604992d9c456babbf99 = L.marker(
+                [37.3019000594952, -121.906285599546],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_e6d82b29cef64c418850ef6b16e0645a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_3456b406afeb4604992d9c456babbf99.setIcon(icon_e6d82b29cef64c418850ef6b16e0645a);
+        
+    
+        var popup_9d635de546d04cedb3f8af750f64c804 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e92173a36ab84ac0bd1c3b7cf5e54c74 = $(`<div id="html_e92173a36ab84ac0bd1c3b7cf5e54c74" style="width: 100.0%; height: 100.0%;">Pidgey</div>`)[0];
+            popup_9d635de546d04cedb3f8af750f64c804.setContent(html_e92173a36ab84ac0bd1c3b7cf5e54c74);
+        
+
+        marker_3456b406afeb4604992d9c456babbf99.bindPopup(popup_9d635de546d04cedb3f8af750f64c804)
+        ;
+
+        
+    
+    
+            marker_3456b406afeb4604992d9c456babbf99.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93b8483e1e1a4a31bb76b30baca9545d = L.marker(
+                [37.301441393883294, -121.910820039333],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_5d29c706e6ea4c2bbe9ab602abefa6ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_93b8483e1e1a4a31bb76b30baca9545d.setIcon(icon_5d29c706e6ea4c2bbe9ab602abefa6ff);
+        
+    
+        var popup_5b67f20a51dd4ff8849b5e8256197251 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e929df67f846441dab083f0eb72248fa = $(`<div id="html_e929df67f846441dab083f0eb72248fa" style="width: 100.0%; height: 100.0%;">Rattata</div>`)[0];
+            popup_5b67f20a51dd4ff8849b5e8256197251.setContent(html_e929df67f846441dab083f0eb72248fa);
+        
+
+        marker_93b8483e1e1a4a31bb76b30baca9545d.bindPopup(popup_5b67f20a51dd4ff8849b5e8256197251)
+        ;
+
+        
+    
+    
+            marker_93b8483e1e1a4a31bb76b30baca9545d.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b814162901f4d339baeea2a72af0283 = L.marker(
+                [37.3027317873901, -121.985300355084],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_ec6307a5726b4d9c8be3ba921abf62cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_5b814162901f4d339baeea2a72af0283.setIcon(icon_ec6307a5726b4d9c8be3ba921abf62cc);
+        
+    
+        var popup_639c812dc5ac41ffa2b4a401426fb684 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ccea463cd2f41f795292203d20fcb4b = $(`<div id="html_7ccea463cd2f41f795292203d20fcb4b" style="width: 100.0%; height: 100.0%;">Spearow</div>`)[0];
+            popup_639c812dc5ac41ffa2b4a401426fb684.setContent(html_7ccea463cd2f41f795292203d20fcb4b);
+        
+
+        marker_5b814162901f4d339baeea2a72af0283.bindPopup(popup_639c812dc5ac41ffa2b4a401426fb684)
+        ;
+
+        
+    
+    
+            marker_5b814162901f4d339baeea2a72af0283.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7f5aefe8f514b80bf3f823cd0e60857 = L.marker(
+                [37.30384314184371, -121.97561544017401],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_a20d9135ef454ab2900fcac5e7027932 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a7f5aefe8f514b80bf3f823cd0e60857.setIcon(icon_a20d9135ef454ab2900fcac5e7027932);
+        
+    
+        var popup_4d3d0cab7d13489aa391a63a204c6341 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_260b635671f4430fb4c9c15f33570a02 = $(`<div id="html_260b635671f4430fb4c9c15f33570a02" style="width: 100.0%; height: 100.0%;">Paras</div>`)[0];
+            popup_4d3d0cab7d13489aa391a63a204c6341.setContent(html_260b635671f4430fb4c9c15f33570a02);
+        
+
+        marker_a7f5aefe8f514b80bf3f823cd0e60857.bindPopup(popup_4d3d0cab7d13489aa391a63a204c6341)
+        ;
+
+        
+    
+    
+            marker_a7f5aefe8f514b80bf3f823cd0e60857.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1f75786270df401aaa2f87fbb26f3262 = L.marker(
+                [37.30351761864821, -121.98219061338101],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_e596b4fb5a3045ba9f94361d586497e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1f75786270df401aaa2f87fbb26f3262.setIcon(icon_e596b4fb5a3045ba9f94361d586497e9);
+        
+    
+        var popup_15a34d5b5dcf424e95c63e9ccc148c87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_404af0c2d67944bb8465e2563ab6edff = $(`<div id="html_404af0c2d67944bb8465e2563ab6edff" style="width: 100.0%; height: 100.0%;">Paras</div>`)[0];
+            popup_15a34d5b5dcf424e95c63e9ccc148c87.setContent(html_404af0c2d67944bb8465e2563ab6edff);
+        
+
+        marker_1f75786270df401aaa2f87fbb26f3262.bindPopup(popup_15a34d5b5dcf424e95c63e9ccc148c87)
+        ;
+
+        
+    
+    
+            marker_1f75786270df401aaa2f87fbb26f3262.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae6df1654dac41348a317778d22d7729 = L.marker(
+                [37.3011861309705, -121.880586921895],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_1a3f2b37c98d495bb7ef1f90da6e5bd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_ae6df1654dac41348a317778d22d7729.setIcon(icon_1a3f2b37c98d495bb7ef1f90da6e5bd3);
+        
+    
+        var popup_a56958658bc94485ac33d4e99111a1cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b46ef85a51d349caabf7d1cc2bde9bbc = $(`<div id="html_b46ef85a51d349caabf7d1cc2bde9bbc" style="width: 100.0%; height: 100.0%;">Pidgey</div>`)[0];
+            popup_a56958658bc94485ac33d4e99111a1cc.setContent(html_b46ef85a51d349caabf7d1cc2bde9bbc);
+        
+
+        marker_ae6df1654dac41348a317778d22d7729.bindPopup(popup_a56958658bc94485ac33d4e99111a1cc)
+        ;
+
+        
+    
+    
+            marker_ae6df1654dac41348a317778d22d7729.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d3dde250bc04292a3ef5973e004ff0b = L.marker(
+                [37.303986529416, -121.96539648254299],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_a438072ca9ac4a32b04871e53886a506 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_6d3dde250bc04292a3ef5973e004ff0b.setIcon(icon_a438072ca9ac4a32b04871e53886a506);
+        
+    
+        var popup_70f3a62fc9074ef4a41d2748fdbcaf5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34e72442679044fcbd3e1d5999728e46 = $(`<div id="html_34e72442679044fcbd3e1d5999728e46" style="width: 100.0%; height: 100.0%;">Spearow</div>`)[0];
+            popup_70f3a62fc9074ef4a41d2748fdbcaf5c.setContent(html_34e72442679044fcbd3e1d5999728e46);
+        
+
+        marker_6d3dde250bc04292a3ef5973e004ff0b.bindPopup(popup_70f3a62fc9074ef4a41d2748fdbcaf5c)
+        ;
+
+        
+    
+    
+            marker_6d3dde250bc04292a3ef5973e004ff0b.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f22c7f509486403e904e674797185008 = L.marker(
+                [37.302675537599896, -121.960508818319],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_6f97762235524135959a852a2f55c6d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_f22c7f509486403e904e674797185008.setIcon(icon_6f97762235524135959a852a2f55c6d9);
+        
+    
+        var popup_65abeab969084f1d9d88817764da5aa9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_098148858fe54f558502a79bf70c127b = $(`<div id="html_098148858fe54f558502a79bf70c127b" style="width: 100.0%; height: 100.0%;">Pidgey</div>`)[0];
+            popup_65abeab969084f1d9d88817764da5aa9.setContent(html_098148858fe54f558502a79bf70c127b);
+        
+
+        marker_f22c7f509486403e904e674797185008.bindPopup(popup_65abeab969084f1d9d88817764da5aa9)
+        ;
+
+        
+    
+    
+            marker_f22c7f509486403e904e674797185008.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5138b404b125444496c5da081e2b13fa = L.marker(
+                [37.301585851663205, -121.88903524372299],
+                {}
+            ).addTo(map_e11ea1ca0be1450dac39f4c8b9835e42);
+        
+    
+            var icon_07eb3e3b3d044c3daf7e2b9b1000599e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5138b404b125444496c5da081e2b13fa.setIcon(icon_07eb3e3b3d044c3daf7e2b9b1000599e);
+        
+    
+        var popup_36b20b6953d9448d875d0c2cabf30aa3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0365a7298a214980bd8d4f5d9133d03d = $(`<div id="html_0365a7298a214980bd8d4f5d9133d03d" style="width: 100.0%; height: 100.0%;">Arbok</div>`)[0];
+            popup_36b20b6953d9448d875d0c2cabf30aa3.setContent(html_0365a7298a214980bd8d4f5d9133d03d);
+        
+
+        marker_5138b404b125444496c5da081e2b13fa.bindPopup(popup_36b20b6953d9448d875d0c2cabf30aa3)
+        ;
+
+        
+    
+    
+            marker_5138b404b125444496c5da081e2b13fa.bindTooltip(
+                `<div>
+                     <img width="100px" height="100px" src=https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
